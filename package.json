@@ -2,9 +2,11 @@
   "name": "todo-webpack",
   "version": "1.0.0",
   "description": "To do list for ACA classes",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/armeagle777/todo-webpack/issues"
   },
-  "homepage": "https://github.com/armeagle777/todo-webpack#readme"
+  "homepage": "https://github.com/armeagle777/todo-webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
 }
