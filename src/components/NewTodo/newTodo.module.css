@@ -1,0 +1,33 @@
+
+.newTodo_container{
+    width: 80%;
+    padding: 5px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fff;
+    border-radius: 5px;
+}
+.newTodo_container input{
+    height: 40px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.add_button{
+    padding: 5px 20px;
+    color: #fff;
+    background: #1266f1;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.add_button:hover{
+    color: #1266f1;
+    background: #fff;
+    cursor: pointer;
+    outline: 1px solid #1266f1;
+}

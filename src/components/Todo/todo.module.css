@@ -1,0 +1,42 @@
+.todo_container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding-top: 15px;
+}
+.todo_container input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+}
+.todo_container input[type="text"]{
+    appearance: none;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 60%;
+}
+.todo_info{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.date{
+    border: 1px solid #ffa900;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background: #fff;
+    font-size: 16px;
+    line-height: 16px;
+}
+.pen{
+    width: 16px;
+    line-height: 16px;
+}
+.trash{
+    width: 16px;
+    margin: 0 10px;
+}
